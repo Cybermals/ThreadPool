@@ -5,10 +5,10 @@ extends EditorPlugin
 func _enter_tree():
 	#Add custom types here
 	add_custom_type(
-	    "ThreadPool", 
-	    "Node", 
-	    preload("ThreadPool.gd"), 
-	    preload("icon.png")
+		"ThreadPool", 
+		"Node", 
+		preload("ThreadPool.gd"), 
+		preload("icon.png")
 	)
 	
 	
